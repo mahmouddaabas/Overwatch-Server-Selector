@@ -28,7 +28,7 @@ namespace OverwatchServerSelector
             Type typeFWRule = Type.GetTypeFromCLSID(new Guid(guidRWRule));
             INetFwPolicy2 fwPolicy2 = (INetFwPolicy2)Activator.CreateInstance(typeFWPolicy2);
             INetFwRule newRule = (INetFwRule)Activator.CreateInstance(typeFWRule);
-            newRule.Name = "1OW_PLAY_MIDDLE_EAST";
+            newRule.Name = "1OW_PLAY_NA";
             newRule.Description = "Block EU and MENA IP Addresses to play on NA servers.";
             newRule.Protocol = (int)NET_FW_IP_PROTOCOL_.NET_FW_IP_PROTOCOL_ANY;
             newRule.RemoteAddresses = euIpRanges + "," + menaIpRanges; //fill all ip addresses in the string
