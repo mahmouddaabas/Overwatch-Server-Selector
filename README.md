@@ -7,4 +7,4 @@ Works for Overwatch 2.
 Regions you can currently play in:
 
 1. NA East
-2. Middle EAast
+2. Middle East
