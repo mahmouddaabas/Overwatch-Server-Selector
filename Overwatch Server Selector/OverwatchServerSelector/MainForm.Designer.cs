@@ -98,11 +98,12 @@
             this.info_label.BackColor = System.Drawing.Color.Transparent;
             this.info_label.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.info_label.ForeColor = System.Drawing.Color.White;
-            this.info_label.Image = global::OverwatchServerSelector.Properties.Resources.background;
+            this.info_label.Image = global::OverwatchServerSelector.Properties.Resources.label_color;
             this.info_label.Location = new System.Drawing.Point(517, 504);
             this.info_label.Name = "info_label";
-            this.info_label.Size = new System.Drawing.Size(0, 21);
+            this.info_label.Size = new System.Drawing.Size(162, 21);
             this.info_label.TabIndex = 7;
+            this.info_label.Text = "No servers selected.";
             // 
             // MainForm
             // 
@@ -114,6 +115,7 @@
             this.Controls.Add(this.playMENA_btn);
             this.Controls.Add(this.playNA_btn);
             this.Controls.Add(this.background_picturebox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Overwatch Server Selector";

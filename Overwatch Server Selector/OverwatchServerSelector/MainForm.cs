@@ -18,7 +18,6 @@ namespace OverwatchServerSelector
             InitializeComponent();
             sc = new ServerSelector();
             sc.deleteRules();
-            info_label.Text = "No servers selected.";
         }
 
         private void playNA_btn_Click(object sender, EventArgs e)
