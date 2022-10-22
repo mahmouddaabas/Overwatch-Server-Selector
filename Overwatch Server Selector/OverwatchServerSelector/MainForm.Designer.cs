@@ -117,7 +117,11 @@
             this.Controls.Add(this.background_picturebox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(817, 603);
+            this.MinimumSize = new System.Drawing.Size(817, 603);
             this.Name = "MainForm";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Overwatch Server Selector";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing_1);
             ((System.ComponentModel.ISupportInitialize)(this.background_picturebox)).EndInit();
